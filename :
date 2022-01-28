@@ -1,0 +1,16 @@
+complete step 1
+
+This reverts commit 7c282948cfacd4ce84d11c2c794174559c61a0a8.
+
+# Immetti il messaggio di commit per le modifiche. Le righe che iniziano
+# con '#' saranno ignorate e un messaggio vuoto interromperà il commit.
+#
+# Sul branch main
+# Il tuo branch è aggiornato rispetto a 'origin/main'.
+#
+# Modifiche di cui verrà eseguito il commit:
+#	modificato:             pp-01/readme.md
+#
+# File non tracciati:
+#	pp-01/assets/typeconnection.png
+#
