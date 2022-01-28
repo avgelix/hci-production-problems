@@ -7,3 +7,62 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+html {
+  background-color: #dbb2b2;
+  color: #550000;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 6px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 19px;
+  margin-bottom: 24px;
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+em {
+  font-family: "PT Serif", serif;
+  background-color: light grey;
+}
+
+a {
+  color: #550000;
+  text-decoration: none;
+  font-style: italic;
+}
+
+section {
+  padding-bottom: 26px;
+}
+
+footer {
+  font-family: "PT Serif", serif;
+  text-align: center;
+  font-size: 16px;
+  background-color:#550000;
+  color:  #dbb2b2;
+  margin-top: 26px;
+  padding: 12px 0 12px 0;
+  margin: 52px -12px -12px -12px;
+}
