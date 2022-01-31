@@ -11,9 +11,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   background-color: #dbb2b2;
   color: #550000;
-  font-size: 18px;
-  line-height: 26px;
-  padding: 12px;
+  font-size: 1.125em;/*18/16 == 1.125em */
+  line-height: 1.44444444em; /* 26/18 == 1.44444444em*/
+  padding: 0.66666667em;/*12/18 == 0.66666667em*/
   font-family: "Raleway", sans-serif;
   font-weight: 300;
 }
@@ -21,17 +21,17 @@ html {
 h1 {
   font-family: "PT Serif", serif;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 30px;
-  padding-top: 6px;
+  font-size: 1.05555556em;/*24/18 == 1.05555556em*/
+  line-height: 1.25em; /*30/24 == 1.25em*/
+  padding-top: 0.25em; /* 6/24 == 0.25em*/
   margin-bottom: 0;
 }
 
 h3 {
   font-family: "PT Serif", serif;
   font-style: italic;
-  font-size: 19px;
-  margin-bottom: 24px;
+  font-size: 1.1875em; /* 19/18 == 1.1875em*/
+  margin-bottom: 1.26315789em; /* 24/19 == 1.26315789em*/
 }
 
 img {
@@ -53,16 +53,16 @@ a {
 }
 
 section {
-  padding-bottom: 26px;
+  padding-bottom: 1.44444444em; /*26/18 == 1.44444444em*/
 }
 
 footer {
   font-family: "PT Serif", serif;
   text-align: center;
-  font-size: 16px;
+  font-size: 0.88888889em;/*16/18 == 0.88888889em*/
   background-color:#550000;
   color:  #dbb2b2;
-  margin-top: 26px;
-  padding: 12px 0 12px 0;
-  margin: 52px -12px -12px -12px;
+  margin-top: 1.625em; /*26/16 == 1.625em*/
+  padding:  0.75em 0  0.75em 0; /* 12px/16 == 0.75em */
+  margin: 3.25em -0.75em -0.75em -0.75em; /* 52/16 == 3.25em*/ /*-12/16 == -0.75em*/
 }
